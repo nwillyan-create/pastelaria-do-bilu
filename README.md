@@ -31,6 +31,11 @@ entrega/
         └── menu-data.js        # Dados de categorias e itens do cardápio
 ```
 
+## Links Oficiais
+
+- **Site Publicado (Vercel):** [https://pastelaria-do-bilu.vercel.app](https://pastelaria-do-bilu.vercel.app)
+- **Repositório GitHub:** [https://github.com/nwillyan-create/pastelaria-do-bilu](https://github.com/nwillyan-create/pastelaria-do-bilu)
+
 ## Como Visualizar
 
 Abrir `index.html` em um navegador web ou executar qualquer servidor estático local:
