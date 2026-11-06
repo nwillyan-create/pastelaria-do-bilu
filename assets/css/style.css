@@ -70,17 +70,17 @@ button{font:inherit;color:inherit;cursor:pointer}
 .btn-escuro{--cor:var(--mata);--cor-sombra:#021a0a;--varre:#0E5A27;--fg:var(--pastel)}
 .btn-escuro{border-color:var(--mata-fundo)}
 
-/* ---------- botão ifood (branco com ícone vermelho) ---------- */
-.btn-ifood{--cor:#FFFFFF;--cor-sombra:#C41421;--varre:#FFF0F1;--fg:#222;border-color:#EA1D2C}
-.btn-ifood strong{color:#EA1D2C}
-.btn-bolha-ifood{background:#FFF0F1;color:#EA1D2C}
-.btn-bolha-ifood .ico{width:28px;height:28px}
+/* ---------- botão ifood (tile com fundo branco e logo iFood) ---------- */
+.btn-ifood{--cor:#FFFFFF;--cor-sombra:#C41421;--varre:#FFF0F1;--fg:#EA1D2C;border-color:var(--mata-fundo)}
+.btn-ifood strong{color:#EA1D2C;font-size:24px}
 
-/* ---------- botão 99 (branco com ícone vermelho e 99 amarelo) ---------- */
-.btn-noventa{--cor:#FFFFFF;--cor-sombra:#A81414;--varre:#FFF9E6;--fg:#222;border-color:#E60012}
-.btn-noventa strong{color:#222}
-.btn-bolha-noventa{background:transparent;padding:0;overflow:hidden;border-radius:12px;display:grid;place-items:center}
-.btn-bolha-noventa svg{width:46px;height:46px;display:block}
+/* ---------- botão 99 (tile com fundo amarelo e logo 99) ---------- */
+.btn-noventa{--cor:#FFD100;--cor-sombra:#B87B00;--varre:#FFE566;--fg:var(--mata-fundo);border-color:var(--mata-fundo)}
+.btn-noventa strong{color:#1A1A1A;font-size:24px}
+
+/* bolha de ícone dos aplicativos (iFood e 99) */
+.btn-bolha-app{border-radius:14px;background:transparent;padding:0;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,.18)}
+.btn-bolha-app svg{width:46px;height:46px;display:block}
 .btn-bolha{display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--mata-fundo);color:var(--pastel);flex:none}
 .btn-bolha .ico{width:24px;height:24px}
 .btn-txt{display:grid;gap:3px;flex:1;min-width:0}
