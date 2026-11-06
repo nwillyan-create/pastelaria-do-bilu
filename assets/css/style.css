@@ -70,8 +70,8 @@ button{font:inherit;color:inherit;cursor:pointer}
 .btn-escuro{--cor:var(--mata);--cor-sombra:#021a0a;--varre:#0E5A27;--fg:var(--pastel)}
 .btn-escuro{border-color:var(--mata-fundo)}
 
-/* ---------- botão ifood (tile com fundo branco e logo iFood) ---------- */
-.btn-ifood{--cor:#FFFFFF;--cor-sombra:#C41421;--varre:#FFF0F1;--fg:#EA1D2C;border-color:var(--mata-fundo)}
+/* ---------- botão ifood (tile com fundo massa igual ao WhatsApp e logo iFood) ---------- */
+.btn-ifood{--cor:var(--massa);--cor-sombra:#B8A767;--varre:#fff;--fg:#EA1D2C;border-color:var(--mata-fundo)}
 .btn-ifood strong{color:#EA1D2C;font-size:24px}
 
 /* ---------- botão 99 (tile com fundo amarelo e logo 99) ---------- */
