@@ -67,6 +67,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 @media (hover:hover){.btn:hover::before{transform:scaleX(1)}}
 .btn:active{transform:translateY(4px);box-shadow:0 2px 0 var(--cor-sombra)}
 .btn-massa{--cor:var(--massa);--cor-sombra:#B8A767;--varre:#fff}
+.btn-amarelo{--cor:var(--pastel);--cor-sombra:#B87B00;--varre:#FFE27A;--fg:var(--mata-fundo)}
 .btn-escuro{--cor:var(--mata);--cor-sombra:#021a0a;--varre:#0E5A27;--fg:var(--pastel)}
 .btn-escuro{border-color:var(--mata-fundo)}
 
